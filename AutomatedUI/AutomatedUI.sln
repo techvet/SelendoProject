@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{6A89544D-6676-41D7-AA8B-B9F727A6CF19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{52F1ADE4-A878-490F-B317-6BC7EE643A14}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoExtension", "KendoExtension\KendoExtension.csproj", "{F0930D3D-847A-47FF-A564-A3C2931B8E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumExtension", "SeleniumExtension\SeleniumExtension.csproj", "{FA4E5925-CF2E-41AA-8DDE-327B35BD042C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_Test_Framework", "Webs_Test_Framework\Web_Test_Framework.csproj", "{F6A39E1C-2C13-4D54-A249-25DA3C0D9709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI_Tests", "UI_Tests\UI_Tests.csproj", "{3F7BC8F1-C6E1-483C-8FC4-5049B62558C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0930D3D-847A-47FF-A564-A3C2931B8E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0930D3D-847A-47FF-A564-A3C2931B8E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0930D3D-847A-47FF-A564-A3C2931B8E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0930D3D-847A-47FF-A564-A3C2931B8E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4E5925-CF2E-41AA-8DDE-327B35BD042C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4E5925-CF2E-41AA-8DDE-327B35BD042C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4E5925-CF2E-41AA-8DDE-327B35BD042C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4E5925-CF2E-41AA-8DDE-327B35BD042C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A39E1C-2C13-4D54-A249-25DA3C0D9709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A39E1C-2C13-4D54-A249-25DA3C0D9709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A39E1C-2C13-4D54-A249-25DA3C0D9709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A39E1C-2C13-4D54-A249-25DA3C0D9709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7BC8F1-C6E1-483C-8FC4-5049B62558C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7BC8F1-C6E1-483C-8FC4-5049B62558C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7BC8F1-C6E1-483C-8FC4-5049B62558C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7BC8F1-C6E1-483C-8FC4-5049B62558C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0930D3D-847A-47FF-A564-A3C2931B8E49} = {6A89544D-6676-41D7-AA8B-B9F727A6CF19}
+		{FA4E5925-CF2E-41AA-8DDE-327B35BD042C} = {6A89544D-6676-41D7-AA8B-B9F727A6CF19}
+	EndGlobalSection
+EndGlobal

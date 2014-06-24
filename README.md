@@ -1,4 +1,4 @@
 Selendo
 =======
 
-Selenium and Seleno inspired extensions and basic test project for automated UI tests that can also handle the Telerik Kendo UI javascript framework.
+Selenium and Seleno inspired extensions for Page Object based UI automation with addtional support for Kendo UI.

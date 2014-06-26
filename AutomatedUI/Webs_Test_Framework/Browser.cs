@@ -23,13 +23,14 @@ namespace Webs_Test_Framework
         {
 	        get
 	        {
-				  webDriver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(5));
+				webDriver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(5));
 		        return webDriver;
 	        }
         }
 
 		 public static bool IsHeadlinePresent(string headLineText)
 		 {
+             //Finds H2 and matches it to your specified headline, should be modified to match your specific headline layout
 			 var pageHeadline = Driver.FindElement(SearchContext, By.CssSelector("h2")).Text;
 			 return pageHeadline == headLineText || pageHeadline.Contains(headLineText);
 		 }
